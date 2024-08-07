@@ -12,7 +12,7 @@ class AboutStyleTwo extends Component {
 		return <section className="about-two  go-top">
 			<img src={publicUrl + "assets/images/shapes/about-two-bg.png"} alt={imagealt} className="about-two__bg" />
 			<div className="container">
-				<img src={publicUrl + "assets/images/resources/cta-2-1.png"} alt={imagealt} className="about-two__moc" />
+				<img src={publicUrl + "assets/images/resources/p3.jpg"} alt={imagealt} className="about-two__moc" />
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="about-two__content">

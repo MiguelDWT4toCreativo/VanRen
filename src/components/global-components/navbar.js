@@ -25,18 +25,18 @@ class Navbar extends Component {
 								<li>
 									<Link to="/service">Servicios</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link to="/team">Equipo VanRen</Link>
-								</li>								
+								</li>								 */}
 								<li>
 									<a href='https://consultoriavanren.com/blog/author/admin/'>Blog</a>
 								</li>
-								<li>
+								{/* <li>
 									<Link to="/about">Acerca de</Link>
 								</li>
 								<li>
 									<Link to="/contact">Contacto</Link>
-								</li>
+								</li> */}
 							</ul>
 						</div>{/* /.main-nav__main-navigation */}
 					</div>

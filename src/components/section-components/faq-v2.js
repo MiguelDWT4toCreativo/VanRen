@@ -16,7 +16,7 @@ class FaqV2 extends Component {
               <div className="faq-two__content">
                 <div className="block-title-two text-left">
                   <p>Por Qué Elegirnos</p>
-                  <h3>Join Us &amp; Get Our <br /> Professional Service</h3>
+                  <h3>Escogenos &amp; obten un <br /> servicio prefesinal</h3>
                 </div>{/* /.block-title-two */}
                 <div className="accrodion-grp" data-grp-name="faq-two-accrodion">
                   <div className="accrodion ">

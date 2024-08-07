@@ -11,7 +11,7 @@ class AboutStyleOne extends Component {
 
 		return <section className="about-one  go-top">
 			<div className="container">
-				<img src={publicUrl + "assets/images/resources/cta-1-1.png"} alt={imagealt} className="about-one__moc" />
+				<img src={publicUrl + "assets/images/resources/p2.jpg"} alt={imagealt} className="about-one__moc" />
 				<div className="row justify-content-end">
 					<div className="col-lg-6">
 						<div className="about-one__content">
@@ -27,7 +27,7 @@ class AboutStyleOne extends Component {
 							<p>En VanRen, nos dedicamos a transformar la manera en que se realizan las ventas, combinando técnicas probadas con un profundo entendimiento 
 								de la inteligencia emocional. Nos comprometemos a acompañar a nuestros clientes en cada paso del camino, asegurando que alcancen sus objetivos 
 								comerciales con estrategias que fomenten relaciones auténticas y duraderas.</p>
-							<Link to="/about" className="thm-btn about-one__btn">Leer Más <i className="fa fa-angle-double-right" /></Link>
+							{/* <Link to="/about" className="thm-btn about-one__btn">Leer Más <i className="fa fa-angle-double-right" /></Link> */}
 							{/* /.thm-btn */}
 						</div>{/* /.about-one__content */}
 					</div>{/* /.col-lg-6 */}

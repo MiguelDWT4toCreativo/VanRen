@@ -12,7 +12,7 @@ class Skill extends Component {
     return <section className="progress-one">
 			  <img src={publicUrl+"assets/images/shapes/progress-bg-1.png"} alt={ imagealt } className="progress-one__bg" />
 			  <div className="container">
-			    <img src={publicUrl+"assets/images/resources/progress-1-1.png"} alt={ imagealt } className="progress-one__moc" />
+			    <img src={publicUrl+"assets/images/resources/p4.png"} alt={ imagealt } className="progress-one__moc" />
 			    <div className="row justify-content-end">
 			      <div className="col-lg-6">
 			        <div className="progress-one__content">
@@ -39,8 +39,8 @@ class Skill extends Component {
 			                <h3>Estrategias de Cierre de Ventas</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '90%', backgroundColor: '#ff57a4'}}>
-			                  <b>90%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '95%', backgroundColor: '#ff57a4'}}>
+			                  <b>95%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			            <div className="progress-one__progress__bar">
@@ -48,8 +48,8 @@ class Skill extends Component {
 			                <h3>Consultoría en Estrategias Comerciales</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '85%', backgroundColor: '#00c8b3'}}>
-			                  <b>85%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '95%', backgroundColor: '#00c8b3'}}>
+			                  <b>95%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			            <div className="progress-one__progress__bar">
@@ -57,8 +57,8 @@ class Skill extends Component {
 			                <h3>Análisis de Datos y Negocios</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '80%', backgroundColor: '#ff9b0d'}}>
-			                  <b>80%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '95%', backgroundColor: '#ff9b0d'}}>
+			                  <b>95%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 						<div className="progress-one__progress__bar">
@@ -66,8 +66,8 @@ class Skill extends Component {
 			                <h3>Gestión de Relaciones con el Cliente (CRM)</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '75%', backgroundColor: '#ff3f3f'}}>
-			                  <b>75%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '95%', backgroundColor: '#ff3f3f'}}>
+			                  <b>95%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			          </div>{/* /.progress-one__progress-wrap */}

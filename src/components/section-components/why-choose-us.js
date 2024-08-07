@@ -23,7 +23,7 @@ class WhyChooseUs extends Component {
                   <img src={publicUrl + "assets/images/shapes/service-i-1.png"} alt={imagealt} />
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
-                  <h3><Link to="/service-details">Entrenamiento en Inteligencia Emocional</Link></h3>
+                  <h3>Entrenamiento en Inteligencia Emocional</h3>
                   <p>Tenga éxito con VanRen Consultoría</p>
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
@@ -38,8 +38,10 @@ class WhyChooseUs extends Component {
                   <img src={publicUrl + "assets/images/shapes/service-i-2.png"} alt={imagealt} />
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
-                  <h3><Link to="/service-details">Estrategias de Cierre de Ventas</Link></h3>
+                  <h3>Estrategias de Cierre de Ventas</h3>
                   <p>Optimización de Ventas</p>
+                  <br></br>
+                  <br></br>
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
               <p><h4>Soluciones Personalizadas para el Cierre de Ventas</h4>
@@ -53,8 +55,9 @@ class WhyChooseUs extends Component {
                   <img src={publicUrl + "assets/images/shapes/service-i-3.png"} alt={imagealt} />
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
-                  <h3><Link to="/service-details">Consultoría en Estrategias Comerciales</Link></h3>
+                  <h3>Consultoría en Estrategias Comerciales</h3>
                   <p>Potencial Comercial</p>
+                  <br></br>
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
               <p><h4>Consultoría y Estrategias Comerciales Innovadoras</h4>

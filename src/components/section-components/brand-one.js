@@ -55,24 +55,6 @@ class BrandOne extends Component {
       </div>{/* /.item */}
       <div className="item">
         <img src={publicUrl+"assets/images/brand/brand-1-6.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-1.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-2.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-3.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-4.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-5.png"} alt={ imagealt } />
-      </div>{/* /.item */}
-      <div className="item">
-        <img src={publicUrl+"assets/images/brand/brand-1-6.png"} alt={ imagealt } />
       </div>
     </div>
   </div>
