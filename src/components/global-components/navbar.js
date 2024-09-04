@@ -19,7 +19,7 @@ const Navbar = () => {
 						<ul className="main-nav__navigation-box">
 							<li><Link to="/#">{translations.home}</Link></li>
 							<li><Link to="/service">{translations.services}</Link></li>
-							<li><a href="https://consultoriovanren.com/blog/author/admin/">{translations.blog}</a></li>
+							<li><a href="https://consultoriavanren.com/blog/author/admin/">{translations.blog}</a></li>
 							<li className="dropdown">
 								<a href="#">{translations.idioma}</a>
 								<ul className="header-lang-list">
