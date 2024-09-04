@@ -1,6 +1,7 @@
 {
   "short_name": "VanRen",
   "name": "Consultoria VanRen",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",

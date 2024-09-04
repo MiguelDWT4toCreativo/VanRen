@@ -4137,9 +4137,9 @@ h6 {
 .team-one__content p {
 	margin: 0;
 	font-size: 13px;
-	text-transform: uppercase;
+	text-align: justify;
 	font-weight: 600;
-	color: var(--thm-base);
+	/* color: var(--thm-base); */
 	line-height: 1em;
 	margin-top: 15px;
 }

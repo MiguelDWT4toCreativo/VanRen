@@ -13,7 +13,7 @@ class TestimonialV2 extends Component {
     return  <section className={"testimonials-two "+CustomClass}>
 			  <div className="container">
 			    <div className="block-title-two text-center">
-			      <h3>Lo que dicen nuestros <br /> sobre nosotros</h3>
+			      {/* <h3>Lo que dicen nuestros <br /> sobre nosotros</h3> */}
 			    </div>{/* /.block-title-two */}
 			    <div className="testimonials-two__carousel owl-carousel thm__owl-carousel owl-theme" data-options="{&quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;stagePadding&quot;: 0, &quot;items&quot;: 3, &quot;smartSpeed&quot;: 700, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 7000, &quot;nav&quot;: false, &quot;dots&quot;: true, &quot;responsive&quot;: { &quot;0&quot;: { &quot;items&quot;: 1, &quot;stagePadding&quot;: 0 }, &quot;1199&quot;: { &quot;items&quot;: 2 }, &quot;1200&quot;: { &quot;items&quot;: 3 } }}">
 			      <div className="item">

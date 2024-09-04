@@ -8,26 +8,29 @@ import Testimonial from './components/testimonial';
 import Team from './components/team';
 import BlogGrid from './components/blog-grid';
 import Contact from './components/contact';
+import { LanguageProvider } from './LanguageContext';
 
 
 class Root extends Component {
-    render() {
-        return(
-                <HashRouter basename="/">
-	                <div>
-	                <Switch>
-	                    <Route exact path="/" component={HomeV1} />
-	                    <Route path="/about" component={About} />
-	                    <Route path="/service" component={Service} />
-	                    <Route path="/testimonial" component={Testimonial} />
-	                    <Route path="/team" component={Team} />
-	                    <Route path="/blog-grid" component={BlogGrid} />
-	                    <Route path="/contact" component={Contact} />
-	                </Switch>
-	                </div>
-                </HashRouter>
-        )
-    }
+	render() {
+		return (
+			<LanguageProvider>
+				<HashRouter basename="/">
+					<div>
+						<Switch>
+							<Route exact path="/" component={HomeV1} />
+							<Route path="/about" component={About} />
+							<Route path="/service" component={Service} />
+							<Route path="/testimonial" component={Testimonial} />
+							<Route path="/team" component={Team} />
+							<Route path="/blog-grid" component={BlogGrid} />
+							<Route path="/contact" component={Contact} />
+						</Switch>
+					</div>
+				</HashRouter>
+			</LanguageProvider>
+		)
+	}
 }
 
 export default Root;
